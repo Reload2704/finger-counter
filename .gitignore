@@ -1,0 +1,39 @@
+# Entorno virtual
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Modelos/artefactos de MediaPipe
+*.task
+*.tflite
+
+# Datos capturados
+*.csv
+data/raw/
+
+# Videos/imágenes de prueba o demo
+*.mp4
+*.avi
+demo/*.mp4
+
+# Variables de entorno / configuración local
+.env
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
